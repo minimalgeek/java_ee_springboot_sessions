@@ -32,6 +32,11 @@ public class SessionServiceTest extends SessiondemoApplicationTests {
         when(repository.findById(0L)).thenReturn(Optional.of(car));
     }
 
+//    @Test
+//    public void testRepositoryFindAll() {
+//        assertEquals(1, repository.findAll().size());
+//    }
+
     @Test
     public void buyCar() {
         sessionService.buyCar(0L);
