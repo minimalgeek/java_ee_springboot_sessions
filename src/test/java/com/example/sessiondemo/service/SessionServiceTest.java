@@ -37,8 +37,4 @@ public class SessionServiceTest extends SessiondemoApplicationTests {
         sessionService.buyCar(0L);
         assertEquals(1, sessionService.getCarsInShoppingCart().size());
     }
-
-    @Test
-    public void getCarsInShoppingCart() {
-    }
 }
